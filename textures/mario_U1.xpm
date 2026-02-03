@@ -187,7 +187,7 @@ static char *result[] = {
 "}. c #EAEAEB",
 "|. c #F3F3F4",
 " X c #F9F9F9",
-".X c None",
+".X c #72751B",
 /* pixels */
 ".X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X#.#.#.#.#.#.#..X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X",
 ".X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X#.#.#.#.#.@.#.#.#.#.#.#..X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X.X",

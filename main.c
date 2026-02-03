@@ -14,24 +14,24 @@
 
 int	ft_change(int key, t_all_about_map *map)
 {
-	if (key == 53)
+	if (key == 65307) // ESC f Linux
 		ft_exit(map);
-	if (key == 13 && map->flag_k == '0' && ft_check_block(map, key) == 1)
+	if (key == 119 && map->flag_k == '0' && ft_check_block(map, key) == 1) // 'w'
 	{
 		map->flag_fr = 0;
 		map->flag_fu = 'U';
 	}
-	else if (key == 2 && map->flag_k == '0' && ft_check_block(map, key) == 1)
+	else if (key == 100 && map->flag_k == '0' && ft_check_block(map, key) == 1) // 'd'
 	{
 		map->flag_fr = 0;
 		map->flag_fu = 'R';
 	}
-	else if (key == 0 && map->flag_k == '0' && ft_check_block(map, key) == 1)
+	else if (key == 97 && map->flag_k == '0' && ft_check_block(map, key) == 1) // 'a'
 	{
 		map->flag_fr = 0;
 		map->flag_fu = 'L';
 	}
-	else if (key == 1 && map->flag_k == '0' && ft_check_block(map, key) == 1)
+	else if (key == 115 && map->flag_k == '0' && ft_check_block(map, key) == 1) // 's'
 	{
 		map->flag_fr = 0;
 		map->flag_fu = 'D';

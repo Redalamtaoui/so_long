@@ -106,15 +106,15 @@ int	ft_check_down(t_all_about_map *map)
 
 int	ft_check_block(t_all_about_map *map, int key)
 {
-	if (key == 13 && ft_check_up(map) == 0)
-		return (0);
-	else if (key == 1 && ft_check_down(map) == 0)
-		return (0);
-	else if (key == 2 && ft_check_right(map) == 0)
-		return (0);
-	else if (key == 0 && ft_check_left(map) == 0)
-		return (0);
-	map->num++;
-	ft_string(map);
-	return (1);
+if (key == 119 && ft_check_up(map) == 0)      // 'w' f Linux
+        return (0);
+    else if (key == 115 && ft_check_down(map) == 0)   // 's' f Linux
+        return (0);
+    else if (key == 100 && ft_check_right(map) == 0)  // 'd' f Linux
+        return (0);
+    else if (key == 97 && ft_check_left(map) == 0)    // 'a' f Linux
+        return (0);
+    map->num++;
+    ft_string(map);
+    return (1);
 }
